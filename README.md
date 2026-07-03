@@ -4,6 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 
+> **Note:** For a more complete, modular treatment of Monte Carlo methods — including Black–Scholes validation, convergence analysis, and exotic (up-and-in Asian) option pricing — see the follow-up project: [quantitative-derivatives-monte-carlo-lab](https://github.com/nmadagi/quantitative-derivatives-monte-carlo-lab).
+
 ---
 
 ## 📌 Overview
