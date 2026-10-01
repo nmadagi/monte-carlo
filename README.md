@@ -1,25 +1,25 @@
-# 🎲 Monte Carlo Simulation
+# Monte Carlo Simulation
 
-> A Jupyter Notebook implementing Monte Carlo simulation for financial applications — including stock price path simulation using Geometric Brownian Motion (GBM) and option pricing.
+> A Jupyter Notebook implementing Monte Carlo simulation for financial applications - including stock price path simulation using Geometric Brownian Motion (GBM) and option pricing.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 
-> **Note:** For a more complete, modular treatment of Monte Carlo methods — including Black–Scholes validation, convergence analysis, and exotic (up-and-in Asian) option pricing — see the follow-up project: [quantitative-derivatives-monte-carlo-lab](https://github.com/nmadagi/quantitative-derivatives-monte-carlo-lab).
+> **Note:** For a more complete, modular treatment of Monte Carlo methods - including Black-Scholes validation, convergence analysis, and exotic (up-and-in Asian) option pricing - see the follow-up project: [quantitative-derivatives-monte-carlo-lab](https://github.com/nmadagi/quantitative-derivatives-monte-carlo-lab).
 
 ---
 
-## 📌 Overview
+## Overview
 
 Monte Carlo simulation is a core technique in quantitative finance, used to model uncertainty in asset prices, estimate option values, and stress-test portfolios. This notebook explores:
 
 - **Stock price path simulation** using GBM
 - **European option pricing** via Monte Carlo vs. Black-Scholes
 - **Confidence intervals** for price estimates
-- **Convergence analysis** — how accuracy improves with more simulations
+- **Convergence analysis** - how accuracy improves with more simulations
 
 ---
 
-## 🧮 Mathematical Foundation
+## Mathematical Foundation
 
 The underlying asset follows **Geometric Brownian Motion (GBM)**:
 
@@ -33,7 +33,7 @@ where $Z \sim \mathcal{N}(0,1)$.
 
 ---
 
-## 📊 Simulations Covered
+## Simulations Covered
 
 | Simulation | Description |
 |---|---|
@@ -45,7 +45,7 @@ where $Z \sim \mathcal{N}(0,1)$.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -65,32 +65,32 @@ jupyter notebook
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
-- **NumPy** — Vectorized simulations
-- **Pandas** — Results management
-- **Matplotlib** — Path and distribution plots
-- **SciPy** — Statistical functions (normal CDF for Black-Scholes)
-- **Jupyter Notebook** — Interactive environment
+- **NumPy** - Vectorized simulations
+- **Pandas** - Results management
+- **Matplotlib** - Path and distribution plots
+- **SciPy** - Statistical functions (normal CDF for Black-Scholes)
+- **Jupyter Notebook** - Interactive environment
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - More simulations → tighter confidence intervals (law of large numbers)
 - Monte Carlo prices **converge** to Black-Scholes for European options
 - GBM paths illustrate **log-normal** terminal price distributions
 - Computationally expensive but highly flexible for exotic/path-dependent options
 
-> 🔗 See also: [Quantitative Derivatives Monte Carlo Lab](https://github.com/nmadagi/quantitative-derivatives-monte-carlo-lab) for the advanced version of this work.
+> See also: [Quantitative Derivatives Monte Carlo Lab](https://github.com/nmadagi/quantitative-derivatives-monte-carlo-lab) for the advanced version of this work.
 
 ---
 
-## 👤 Author
+## Author
 
 **Nitin Madagi** | [GitHub](https://github.com/nmadagi) | [Portfolio](https://nmadagi.github.io/portfolio)
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
